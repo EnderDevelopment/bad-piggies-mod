@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Bad Piggies Mod",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "wooden_frame": {
+      "textures": "textures/blocks/wooden_frame"
+    }
+  }
+}

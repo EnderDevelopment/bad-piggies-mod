@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "badpiggiesmod:green_pig",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": ["player"],
+        "controlling_seat": 0
+      },
+      "minecraft:geometry": {
+        "default": "geometry.green_pig"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "green_pig",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

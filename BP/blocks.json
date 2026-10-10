@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "badpiggiesmod:wooden_frame",
+      "properties": {
+        "minecraft:direction": {
+          "type": "int",
+          "default": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.wooden_frame",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wooden_frame",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}
